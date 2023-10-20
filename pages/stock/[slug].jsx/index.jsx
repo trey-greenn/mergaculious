@@ -28,7 +28,7 @@ export default function TradingViewWidget() {
       return () => onLoadScriptRef.current = null;
 
       function createWidget() {
-        if (document.getElementById('tradingview_d9295') && 'TradingView' in window) {
+        if (document.getElementById('tradingview_904e4') && 'TradingView' in window) {
           new window.TradingView.widget({
             autosize: true,
             symbol: "NASDAQ:AAPL",
@@ -39,7 +39,7 @@ export default function TradingViewWidget() {
             locale: "en",
             enable_publishing: false,
             allow_symbol_change: true,
-            container_id: "tradingview_d9295"
+            container_id: "tradingview_904e4"
           });
         }
       }
@@ -49,38 +49,42 @@ export default function TradingViewWidget() {
 
   return (
     <><div>
-      <title>Apple Inc. Company Profile: Financial Analysis</title>
       <h1 className="bg-black text-white flex justify-center font-bold  p-4">APPLE Inc.</h1>
 
     </div>
+    <div className="grid grid-cols-11 bg-black p-4 gap-4">
+        <div className="col-start-2 col-end-6 mt-12 p-6 bg-purple-900 rounded-lg">
+        <div className='tradingview-widget-container' style={{ height: "100%", width: "100%" }}>
+      <div id='tradingview_c03df' style={{ height: "calc(100% - 32px)", width: "100%" }} />
+      <div className="tradingview-widget-copyright">
+        <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">YTD</span></a>
+      </div>
+    </div>
+        </div>
+        <div className="col-start-6 col-end-9 mt-12 p-6 bg-purple-900 rounded-lg">
+        <div className='tradingview-widget-container' style={{ height: "100%", width: "100%" }}>
+      <div id='tradingview_c03df' style={{ height: "calc(100% - 32px)", width: "100%" }} />
+      <div className="tradingview-widget-copyright">
+        <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">3 Year</span></a>
+      </div>
+    </div>
+        </div>
+        <div className="col-start-9 col-end-12 mt-12 p-6 bg-purple-900 rounded-lg">
+        <div className='tradingview-widget-container' style={{ height: "100%", width: "100%" }}>
+      <div id='tradingview_c03df' style={{ height: "calc(100% - 32px)", width: "100%" }} />
+      <div className="tradingview-widget-copyright">
+        <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">10 Years</span></a>
+      </div>
+    </div>
+        </div>
 
-  <div className="grid grid-cols-3 gap-4 pl-6">    
-    <div className='tradingview-widget-container' style={{ height: "100%", width: "100%" }}>
-        <div id='tradingview_d9295' style={{ height: "calc(100% - 32px)", width: "100%" }} />
-          <div className="tradingview-widget-copyright">
-            <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">Track all markets on TradingView</span></a>
-          </div>
-        </div>
-        <div className='tradingview-widget-container' style={{ height: "100%", width: "100%" }}>
-          <div id='tradingview_d9295' style={{ height: "calc(100% - 32px)", width: "100%" }} />
-            <div className="tradingview-widget-copyright">
-            <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">Track all markets on TradingView</span></a>
-          </div>
-        </div>
-        <div className='tradingview-widget-container' style={{ height: "100%", width: "100%" }}>
-          <div id='tradingview_d9295' style={{ height: "calc(100% - 32px)", width: "100%" }} />
-            <div className="tradingview-widget-copyright">
-              <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">Track all markets on TradingView</span></a>
-          </div>
-        </div>
       </div>
       <div>
           <h2 className="text-white mx-12 pt-12 pb-4">
             Company Financial Ratios
           </h2>
-          <div className="mx-6 rounded-xl">
-<table >
-  <tr className="">
+<table>
+  <tr>
     <th>Company</th>
     <th>Contact</th>
     <th>Country</th>
@@ -116,13 +120,14 @@ export default function TradingViewWidget() {
     <td>Italy</td>
   </tr>
 </table>
-</div>
     <div className="grid grid-cols-7">
   <object className="col-start-2 col-end-7 mt-12" data="/DCF Model_Apple.pdf"  type="application/pdf" width="100%" height="500px"></object>
 
   </div>
 
         </div>
+      
+      
       </>
   );
 }

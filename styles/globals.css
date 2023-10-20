@@ -3,5 +3,27 @@
 @tailwind utilities;
 
 
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    padding:8px
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding:8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(88 28 135);
+  }
+
+  body{
+    background-color: black
+  }
 
 
