@@ -16,20 +16,16 @@ const LineChart = () => {
 
 
     
-var [data, setData] = useState([{_id:'trey', DATE:['2023-10-19'], PRICE:['100']}]);
+const [data, setData] = useState([{_id:'trey', DATE:['2023-10-19'], PRICE:['100']}]);
 
   useEffect(() => {
     fetch('/api/data')
       .then(response => response.json())
       .then(data => setData(data));
   }, []);
-var trey = {_id:'trey', DATE:['2023-10-19'], PRICE:['100']}
-  if(!data){
-    data = trey
-  }
+
 let kim = data[0]['DATE']
 let him = data[0]['PRICE']
-console.log(data)
 
   const pata = {
     labels: kim,

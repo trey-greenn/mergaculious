@@ -10,4 +10,5 @@ export default async function handler(req, res) {
   const data = await db.collection("test").find({}).toArray();
 
   res.json(data);
+  console.log(data)
 }
