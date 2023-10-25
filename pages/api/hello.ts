@@ -11,3 +11,14 @@ export default function handler(
 ) {
   res.status(200).json({ name: 'John Doe' })
 }
+
+const Fred = require('fred-api');
+
+const fred = new Fred("ad5eaf456f64fd483d71efd6d3002fdd")
+
+fred.getSeries({
+  series_id: 'GNPCA'},
+  function(error:any,result:any){
+    console.log(result)
+  }
+  )
