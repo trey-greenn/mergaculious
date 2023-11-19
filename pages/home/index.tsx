@@ -5,58 +5,58 @@ const index = () => {
     <>
     <div className="flex justify-center">
         <div className="bg-gray-200 rounded-lg w-5/6">
-            <div className="grid grid-cols-3 grid-flow-row gap-2">
+            <div className="grid grid-cols-3 grid-flow-row ">
                 
-                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950 grid grid-flow-col">
-                        <h2 className=" font-bold ">30 Yr. Treasury Note:</h2>
+                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950 grid grid-flow-row sm:grid-flow-col">
+                    <h2 className="text-xs sm:text-xl font-bold">30 Yr. Treasury Note:</h2>
                         <h4 className="font-bold text-green-600">3.07%</h4>
                         </div>
-                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>10 Yr. Treasury Note:</h2> <h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>1 Yr. Treasury Note: </h2> <h4 className="font-bold text-green-600">3.07%</h4> </div>
-                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                       <h2> 10 Yr. SPY:</h2> <h4 className="font-bold text-green-600">3.07%</h4> </div>
-                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>3 Yr. SPY:</h2>  <h4 className="font-bold text-red-600">3.07%</h4></div>
-                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                       <h2> SPY YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4> </div>
-                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                       <h2> 10 Yr. QQQ: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                       <h2> 3 Yr. QQQ: </h2><h4 className="font-bold text-red-600">3.07%</h4> </div>
-                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>QQQ YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4> </div>
-                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>10 Yr. BTC: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>3 Yr. BTC: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>BTC YTD: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
-                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>10 Yr. CPI: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>3 Yr. CPI: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>CPI YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>10 Yr. GDP: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
-                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>3 Yr. GDP: </h2><h4 className="font-bold text-green-600">3.07%</h4> </div>
-                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>GDP YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>10 Yr. UR: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
-                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>3 Yr. UR: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>UR YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
-                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>10 Yr. CP: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
-                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>3 Yr. CP: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
-                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-col">
-                        <h2>CP YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">10 Yr. Treasury Note:</h2> <h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">1 Yr. Treasury Note: </h2> <h4 className="font-bold text-green-600">3.07%</h4> </div>
+                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                       <h2 className="text-xs sm:text-xl font-bold"> 10 Yr. SPY:</h2> <h4 className="font-bold text-green-600">3.07%</h4> </div>
+                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">3 Yr. SPY:</h2>  <h4 className="font-bold text-red-600">3.07%</h4></div>
+                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                       <h2 className="text-xs sm:text-xl font-bold"> SPY YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4> </div>
+                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                       <h2 className="text-xs sm:text-xl font-bold"> 10 Yr. QQQ: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                       <h2 className="text-xs sm:text-xl font-bold"> 3 Yr. QQQ: </h2><h4 className="font-bold text-red-600">3.07%</h4> </div>
+                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">QQQ YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4> </div>
+                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">10 Yr. BTC: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">3 Yr. BTC: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">BTC YTD: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
+                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">10 Yr. CPI: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">3 Yr. CPI: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">CPI YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">10 Yr. GDP: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
+                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">3 Yr. GDP: </h2><h4 className="font-bold text-green-600">3.07%</h4> </div>
+                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">GDP YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">10 Yr. UR: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
+                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">3 Yr. UR: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">UR YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
+                    <div className="col-start-1 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">10 Yr. CP: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
+                    <div className="col-start-2 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">3 Yr. CP: </h2><h4 className="font-bold text-red-600">3.07%</h4></div>
+                    <div className="col-start-3 rounded-lg bg-gradient-to-r from-black via-purple-950 to-gray-800 text-white m-2 p-2 shadow-md shadow-purple-950  text-white m-2 p-2 grid grid-flow-row sm:grid-flow-col">
+                        <h2 className="text-xs sm:text-xl font-bold">CP YTD: </h2><h4 className="font-bold text-green-600">3.07%</h4></div>
 
                 
 
@@ -66,51 +66,51 @@ const index = () => {
     </div>
 <div className="flex justify-center">
     <div className="w-5/6">
-            <div className="grid grid-cols-4 gap-2 mt-2">
+            <div className="grid grid-cols-4  gap-1 sm:gap-2 mt-2">
             <div className="grid grid-flow-row col-start-1 col-end-2 bg-gray-200 rounded-lg">
-                <h2 className="text-center text-purple-600 font-bold">Sector - YTD</h2>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Technology: </p>
+                <h2 className="sm:text-center text-purple-600 font-bold text-xs ">Sector - YTD</h2>
+                <div className="grid  grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-xs md:text-xs">Technology: </p>
                     <p className="font-bold text-green-600 text-sm md:text-xs">43.79%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Communication Services: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Communication Services: </p>
                     <p className="font-bold text-green-600 text-sm md:text-xs md:ml-2">33.58%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Consumer Cyclical: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Consumer Cyclical: </p>
                     <p className="font-bold text-green-600 text-sm md:text-xs" >16.25%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Inudstrials: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Inudstrials: </p>
                     <p className="font-bold text-green-600 text-sm md:text-xs">7.29%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Financials: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Financials: </p>
                     <p className="font-bold text-green-600 text-sm md:text-xs">5.27%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Basic Materials: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Basic Materials: </p>
                     <p className="font-bold text-green-600 text-sm md:text-xs">2.08%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Healthcare: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Healthcare: </p>
                     <p className="font-bold text-red-600 text-sm md:text-xs">1.3%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Energy: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Energy: </p>
                     <p className="font-bold text-red-600 text-sm md:text-xs">2.48%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Consumer Defensive: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Consumer Defensive: </p>
                     <p className="font-bold text-red-600 text-sm md:text-xs">4.24%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Real Estate: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Real Estate: </p>
                     <p className="font-bold text-red-600 text-sm md:text-xs">7.59%</p>
                 </div>
-                <div className="grid grid-cols-2">
-                    <p className="font-bold text-black ml-2 text-sm md:text-xs">Utilities: </p>
+                <div className="grid grid-flow-row sm:grid-cols-2">
+                    <p className="font-bold text-black sm:ml-2 text-sm md:text-xs">Utilities: </p>
                     <p className="font-bold text-red-600 text-sm md:text-xs">9.64%</p>
                 </div>
             </div>
@@ -136,7 +136,7 @@ const index = () => {
 
         <div className="w-5/6 bg-gray-200 mt-2 rounded-lg">
             <h2 className="text-center font-bold text-purple-600 py-2">Upcoming Economic Events</h2>
-            <div className="grid grid-cols-7 text-center">
+            <div className="grid grid-cols-3 sm:grid-cols-7 text-center">
                 <div className="border-r-2 border-purple-600 text-black">
                    <h3 className=" font-bold border-b-2 border-purple-600"> October 17. 2023 </h3> 
                    <h4>Quartely Retail E-Commerce Sales</h4>
@@ -192,10 +192,10 @@ const index = () => {
 
         </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-12">
         <div className="w-5/6 bg-gray-200 mt-2 rounded-lg">
             <h2 className="text-center font-bold text-black"> Explore Data</h2>
-            <div className="grid grid-cols-3 grid-flow-row">
+            <div className="grid grid-cols-2 sm:grid-cols-3 grid-flow-row">
             <div className="m-2 w-fit rounded-lg p-0.5 ">
                 <div className="mb-1 bg-purple-900 rounded-lg">
                 <h2 className="text-black font-bold text-lg text-center">Producer Price Index</h2>
