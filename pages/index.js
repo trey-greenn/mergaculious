@@ -39,8 +39,11 @@ export default function Home({ isConnected }) {
 
   return (
     <><h1 className="text-center"> Economic Data</h1><div className="h-96">
+      <div className="">
       <ChartLine data={pata} />
-
+      <ChartLine data={pata} />
+      <ChartLine data={pata} />
+      </div>
     </div></>
   );
 }
